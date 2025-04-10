@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import password8 from "../../Assets/Projects/Password-Generator.png";
+import mahakumbh from "../../Assets/Projects/mahakumbh.png";
+import olympic from "../../Assets/Projects/Olympic-Game.png";
+import Bhojanbazaar from "../../Assets/Projects/Bhojan-bazaar.png";
+import newsWeb from "../../Assets/Projects/News-Web.png";
+import GoldenChat from "../../Assets/Projects/Real-Time-Chat.png";
 
 function Projects() {
   return (
@@ -23,68 +23,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={mahakumbh}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Maha-Kumbh 2025 Personalized Website"
+              description="Developed a dynamic, responsive website using React.js, Node.js, Express, MongoDB, and Cloudinary that offers users a personalized experience. The platform allows users to create custom pages with unique URLs, upload images, and explore event details, attractions, and historical insights. It features secure page deletion through password authentication and ensures seamless functionality across all devices."
+              ghLink="https://mahakumbh.live/"
+              demoLink="https://github.com/kumbh2025/maha-kumbh-frontend"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Bhojanbazaar}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Bhojan-Bazaar (Food Order Management)"
+              description="Developed a full-stack web application using React.js, Node.js, Express, and MongoDB to streamline the food ordering process. Integrated features like login authentication, cart management, payment options (COD and Stripe), and user order tracking. Designed and implemented an admin panel for managing food items and monitoring orders efficiently."
+              ghLink="https://github.com/Praveshkacode/Food-Ordering-Website-Frontend-React-JS"
+              demoLink="https://bhojanbazzar.onrender.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={GoldenChat}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Golden Whatsapp"
+              description="Created a real-time chat application using the MERN stack and Socket.IO, supporting instant messaging, user authentication, and responsive design."
+              ghLink="https://github.com/Praveshkacode/Golden-Chat-React"
+              // demoLink=""              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={olympic}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Olympic Fantasy Game"
+              description="Developed an Olympic fantasy game using React where users can log in, buy and sell teams, and earn profits based on in-game outcomes like wins or losses. Integrated interactive gameplay mechanics, dynamic state management, and a responsive UI for an engaging user experience."
+              ghLink="https://github.com/Praveshkacode/Olympic-Game"
+              demoLink="https://olympic-game.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={password8}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Password Generator"
+              description="Developed an 8-digit password generator using HTML, CSS, and JavaScript, allowing users to quickly create secure passwords with a single click. Designed a clean, user-friendly interface with responsive styling to ensure a smooth experience across all devices. The tool focuses on simplicity, efficiency, and ease of use."
+              ghLink="https://github.com/Praveshkacode/PasswordGenerator"
+              demoLink="https://password8.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={newsWeb}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="The News"
+              description="Developed a news website using HTML, CSS, and JavaScript that fetches real-time news articles from the NewsAPI.org. Implemented search and filter functionalities to help users easily find news based on keywords or categories. Designed a responsive and user-friendly interface for seamless browsing across devices. Ensured smooth API integration for live updates and dynamic content display."
+              ghLink="https://github.com/Praveshkacode/News-website-projects"
+              // demoLink=""      <--------Please include a demo link here 
             />
           </Col>
         </Row>
