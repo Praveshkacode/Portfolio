@@ -27,8 +27,8 @@ function Projects() {
               isBlog={false}
               title="Maha-Kumbh 2025 Personalized Website"
               description="Developed a dynamic, responsive website using React.js, Node.js, Express, MongoDB, and Cloudinary that offers users a personalized experience. The platform allows users to create custom pages with unique URLs, upload images, and explore event details, attractions, and historical insights. It features secure page deletion through password authentication and ensures seamless functionality across all devices."
-              ghLink="https://mahakumbh.live/"
-              demoLink="https://github.com/kumbh2025/maha-kumbh-frontend"
+              ghLink="https://github.com/kumbh2025/maha-kumbh-frontend"
+              demoLink="https://mahakumbh.live/"
             />
           </Col>
 
