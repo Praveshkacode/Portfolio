@@ -110,11 +110,11 @@ function ResumeNew() {
   );
 }
 
-// Reusable components for cleaner JSX
+// ✅ Fixed here — div instead of p
 const Section = ({ title, children }) => (
   <>
     <h2 className="purple" style={{ fontSize: "24px", marginBottom: "15px" }}>{title}</h2>
-    <p style={{ fontSize: "16px", marginBottom: "20px" }}>{children}</p>
+    <div style={{ fontSize: "16px", marginBottom: "20px" }}>{children}</div>
   </>
 );
 
